@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.18)  10 DEC 2025 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.18)  10 DEC 2025 17:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,7 +369,8 @@ ef
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box100
-) (./sample.aux)
+)
+No file sample.aux.
 \openout1 = `sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -390,7 +391,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
-
 (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count308
@@ -416,7 +416,6 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 22.
- (./sample.out) (./sample.out)
 \@outlinefile=\write3
 \openout3 = `sample.out'.
 
@@ -487,11 +486,12 @@ environment!.
 LaTeX Warning: Reference `tab:sample' on page 1 undefined on input line 88.
 
 
+LaTeX Warning: Reference `eq:quadratic' on page 1 undefined on input line 88.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 \T1/cmr/m/n/12 You can ref-er-ence sec-tions,
  []
-
-
 
 [1
 
@@ -505,17 +505,26 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `sample.out' has not changed.
-(rerunfilecheck)             Checksum: 7DEC1CDE296351A9040330CBDC7E155B;803.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `sample.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sample.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  7DEC1CDE296351A9040330CBDC7E155B;803.
  ) 
 Here is how much of TeX's memory you used:
- 10545 strings out of 474662
- 159750 string characters out of 5751109
- 565420 words of memory out of 5000000
- 33446 multiletter control sequences out of 15000+600000
+ 10530 strings out of 474662
+ 159602 string characters out of 5751109
+ 565321 words of memory out of 5000000
+ 33437 multiletter control sequences out of 15000+600000
  569444 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,8n,79p,253b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,253b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/kaand/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/e
 c/tcrm1200.600pk> </Users/kaand/Library/texlive/2025basic/texmf-var/fonts/pk/lj
 four/jknappen/ec/ectt1200.600pk> </Users/kaand/Library/texlive/2025basic/texmf-
@@ -533,10 +542,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025basic/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025basic/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025basic
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on sample.pdf (1 page, 112157 bytes).
+Output written on sample.pdf (1 page, 111429 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  16 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

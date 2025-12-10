@@ -10,11 +10,9 @@
 \usepackage{hyperref}
 \usepackage{geometry}
 \usepackage{multicol}
-\geometry{a4paper,landscape,left=0.2cm,right=0.2cm,top=0.2cm,bottom=0.2cm,textheight=\paperheight,textwidth=\paperwidth}
+\geometry{a4paper,landscape,left=0.2cm,right=0.2cm,top=0.2cm,bottom=0.2cm}
 \setlength{\columnsep}{0.1cm}
-\setlength{\columnseprule}{0pt}
 \pagestyle{empty}
-\raggedcolumns
 
 % Title information
 \title{Sample LaTeX Document}
@@ -23,7 +21,7 @@
 
 \begin{document}
 
-\begin{multicols}{5}
+\begin{multicols*}{5}
 
 \section{Introduction}
 
@@ -98,7 +96,7 @@ You can reference sections, equations, and tables. For example, see Table~\ref{t
 
 This sample document demonstrates many of the basic features of LaTeX. For more information, visit \url{https://www.latex-project.org/}.
 
-\end{multicols}
+\end{multicols*}
 
 \end{document}
 
