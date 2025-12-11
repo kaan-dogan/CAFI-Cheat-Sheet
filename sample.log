@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.18)  11 DEC 2025 00:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.18)  11 DEC 2025 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,27 +811,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--296
 [1
 
 {/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
 \T1/cmr/bx/n/10 A se-ries con-verges if:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
 []\T1/cmr/m/n/10 If $[] \OML/cmm/m/it/10 a[]$ \T1/cmr/m/n/10 con-verges, then
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []$\OML/cmm/m/it/10 x[]e[] \OT1/cmr/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--465
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
 \OMS/cmsy/m/n/10 j[]j \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (7.87662pt too wide) in paragraph at lines 465--465
+Overfull \hbox (7.87662pt too wide) in paragraph at lines 464--464
 []$ 
  []
 
@@ -840,21 +840,14 @@ Overfull \hbox (7.87662pt too wide) in paragraph at lines 465--465
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `sample.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sample.out':
-(rerunfilecheck)             Before: AC650745F5981461A4943069A25CBA8B;863
-(rerunfilecheck)             After:  B55A9F4DEB3148CC25029777911C6412;942.
+Package rerunfilecheck Info: File `sample.out' has not changed.
+(rerunfilecheck)             Checksum: B55A9F4DEB3148CC25029777911C6412;942.
  ) 
 Here is how much of TeX's memory you used:
- 21590 strings out of 474662
- 398229 string characters out of 5751109
- 858002 words of memory out of 5000000
- 44285 multiletter control sequences out of 15000+600000
+ 21591 strings out of 474662
+ 398241 string characters out of 5751109
+ 860226 words of memory out of 5000000
+ 44286 multiletter control sequences out of 15000+600000
  565312 words of font info for 52 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  84i,17n,87p,408b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -876,10 +869,10 @@ nts/cm/cmr7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy7.pfb>
-Output written on sample.pdf (2 pages, 192361 bytes).
+Output written on sample.pdf (2 pages, 192393 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 280 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  11 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 words of extra memory for PDF output out of 10000 (max. 10000000)
 

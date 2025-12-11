@@ -219,14 +219,11 @@ $\frac{dy}{dx} = -\frac{x}{y}$\par
 
 \section{Applications of Derivatives}
 
-\boxedsection{Related Rates Example}{%
-\textbf{Question:} Circle expanding. Radius increases at $\frac{dr}{dt} = 2$ cm/s. Find $\frac{dA}{dt}$ when $r = 5$ cm.\par
-\textbf{Solution pattern:}\par
-1. Formula: $A = \pi r^2$\par
-2. Differentiate w.r.t. time $t$: $\frac{dA}{dt} = 2\pi r \frac{dr}{dt}$\par
-3. Substitute: $r = 5$, $\frac{dr}{dt} = 2$\par
-$\frac{dA}{dt} = 2\pi(5)(2) = 20\pi$ cm$^2$/s\par
-\textbf{Answer:} $20\pi$ cm$^2$/s\par
+\boxedsection{Second Derivative Test}{%
+\textbf{If $f''(c)$ exists:}\par
+$f''(c) < 0 \to$ local maximum\par
+$f''(c) > 0 \to$ local minimum\par
+$f''(c) = 0 \to$ inconclusive\par
 }
 
 \boxedsection{Extrema Procedure}{%
@@ -238,11 +235,14 @@ $f'$ changes $- \to +$: local min\par
 No sign change: neither\par
 }
 
-\boxedsection{Second Derivative Test}{%
-\textbf{If $f''(c)$ exists:}\par
-$f''(c) < 0 \to$ local maximum\par
-$f''(c) > 0 \to$ local minimum\par
-$f''(c) = 0 \to$ inconclusive (use First Derivative Test)\par
+\boxedsection{Related Rates Example}{%
+\textbf{Question:} Circle expanding. Radius increases at $\frac{dr}{dt} = 2$ cm/s. Find $\frac{dA}{dt}$ when $r = 5$ cm.\par
+\textbf{Solution pattern:}\par
+1. Formula: $A = \pi r^2$\par
+2. Differentiate w.r.t. time $t$: $\frac{dA}{dt} = 2\pi r \frac{dr}{dt}$\par
+3. Substitute: $r = 5$, $\frac{dr}{dt} = 2$\par
+$\frac{dA}{dt} = 2\pi(5)(2) = 20\pi$ cm$^2$/s\par
+\textbf{Answer:} $20\pi$ cm$^2$/s\par
 }
 
 \boxedsection{Optimization Example}{%
@@ -307,7 +307,7 @@ $\int_a^b (\text{rate of change}) dt = \text{total change over } [a, b]$\par
 \textbf{Integral:} $\int \frac{\sin x}{(1+\cos x)^2} dx$\par
 \textbf{Let:} $u = 1 + \cos x$, $du = -\sin x dx$\par
 \textbf{Then:} $\int \frac{\sin x}{(1+\cos x)^2} dx = -\int \frac{1}{u^2} du$\par
-\textbf{Integrate:} $-\frac{u^{-1}}{-1} = u^{-1} + C = \frac{1}{u} + C$\par
+\textbf{Integrate:} $-\frac{u^{-1}}{-1} = u^{-1} + C$\par
 \textbf{Back-substitute:} $\frac{1}{1+\cos x} + C$\par
 }
 
@@ -341,16 +341,16 @@ $\bullet$ Constant value whose rectangle has same area as area under $f$\par
 
 \section{Differential Equations}
 
-\boxedsection{Simple DE Example}{%
-\textbf{Solve:} $\frac{dy}{dx} = 3x^2$\par
-\textbf{Integrate both sides:} $y = x^3 + C$\par
-}
-
 \boxedsection{Separable DE Example 1}{%
 \textbf{Solve:} $\frac{dy}{dx} = y$\par
 \textbf{Separate:} $\frac{1}{y} dy = dx$\par
 \textbf{Integrate:} $\ln |y| = x + C$\par
 \textbf{Exponentiate:} $y = Ce^x$\par
+}
+
+\boxedsection{Simple DE Example}{%
+\textbf{Solve:} $\frac{dy}{dx} = 3x^2$\par
+\textbf{Integrate both sides:} $y = x^3 + C$\par
 }
 
 \boxedsection{Separable DE Example 2}{%
@@ -368,7 +368,6 @@ $\bullet$ Constant value whose rectangle has same area as area under $f$\par
 \textbf{Multiply by 2:} $y^2 + 4y = x^2 + C$\par
 \textbf{Complete square:} $(y+2)^2 = x^2 + K$\par
 \textbf{Final:} $y = -2 \pm \sqrt{x^2 + K}$\par
-(If initial condition given, solve for $K$.)\par
 }
 
 \boxedsection{Logistic Equation Problem}{%
